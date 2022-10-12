@@ -1,0 +1,275 @@
+*{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+    list-style: none;
+    text-decoration: none;}
+    
+
+img{
+    width: 100%;
+}
+
+
+
+
+.nav2{
+   
+    height: 3rem;
+    width: 100%;
+    top: 70;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+background-color: black;
+    padding: 0px 5%;
+
+
+}
+
+
+.nav2.sticky{
+    padding: 13px 50%;
+    
+}
+
+.logo{
+    color: white;
+    font-size: 22px;
+}
+
+.navlist{
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.navlist li{
+    position: relative;
+
+}
+.navlist a{
+    font-size: 15px;
+    color: aliceblue;
+    font-weight: 500;
+    padding: 10px 27px;
+ 
+
+}
+
+.navlist a::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    background-color: white;
+    bottom: -1px;
+    left: 0;
+    transition:ease .40s;
+   
+}
+
+
+.navlist a:hover::after{
+width: 100px;
+
+}
+
+
+section{
+    padding: 30px 3%;
+   
+ 
+}
+
+
+.home{
+    min-height: 100vh;
+    height:100%;
+    position: relative;
+    display: flex;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    grid-gap: 4rem;}
+
+    .home-text p{
+        width: 98%;
+        font-size: 20px;
+        line-height: 30px;
+margin-bottom: 25px
+
+    }
+    .home-text h1{
+        padding: 30px 0px;
+        font-size: 30px
+    }
+
+
+
+    .table{
+        display: table;
+        width: 30%;
+        margin: 10px auto;
+        background: transparent;
+ 
+        background-color: rgb(218, 218, 218);
+
+        color: rgb(86, 85, 85);
+     
+        box-shadow: 20 10px 40px 10 rgba(12, 159, 59, 0);
+    }
+
+    .table li{
+        padding: 22px 22px 28px 22px;
+        border-style: groove;
+   }
+
+   .table a{
+    font-size: 25px;
+    color: rgb(48, 50, 51);
+    font-weight: 400;
+    padding: 50px 20px;
+ 
+
+}
+
+.table a:hover{
+    
+color: rgb(150, 150, 140);
+    
+    }
+
+
+
+    .box img{
+        height: 200px;
+        width: 250px;
+    }
+
+
+    .insects .box-container{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(20rem,2fr));
+        grid-gap: 1.5rem;
+    }
+
+    .insects .box-container .box{
+        padding: 2.5rem;
+        background-color: white;
+        border-radius: .5rem;
+        border: 0.01rem solid rgb(150, 142, 142);
+        box-shadow: 20 10px 40px 10 rgba(12, 159, 59, 0);
+        position: relative;
+        overflow: hidden;
+        text-align: center;
+    }
+    .insects .box-container .box .sub-box{
+    
+        background-color: rgb(180, 172, 172);
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .insects .box-container .box:hover{
+        background-color: grey;
+    }
+
+    .insects .box-container .box .sub-box:hover {
+        background-color: rgb(251, 240, 240);
+    }
+
+
+    .btn{
+       
+         
+            padding: 15px 30px;
+            margin: 30px 30px 0px 600px;
+            justify-content: center;
+            background-color: rgb(244, 238, 238);
+            color:rgb(5, 5, 5) ;
+            border: 2px solid rgb(103, 105, 103);
+            border-radius: 30px;
+            letter-spacing: 1px;
+        font-weight: 500;
+        transition: ease .50s;
+        }
+
+
+        .btn:hover{
+            transform: scale(6.1);
+            background-color:rgb(189, 182, 182);
+            border: 2px solid rgb(89, 91, 89);
+            }
+
+             .logo2{
+                color: white;
+                font-size: 22px;
+            }
+
+            .information{
+                display: grid;
+                grid-template-columns: repeat(auto-fit,minmax(15rem,2fr));
+                grid-gap: 1.5rem;
+                margin: 200px 20px 20px 20px; 
+                height: 400px;
+                width: 100%;
+                background-color: black;
+                padding: 20px 20px 20px 20px;
+                line-height: 30px;
+     
+           
+            }
+
+            .information ul li a{
+                color: white;
+            }
+
+            .social i{
+              color: white;
+              font-size: 22px;
+              letter-spacing: 2rem;
+            }
+            .social i:hover{
+                color: rgb(124, 122, 122);
+            }
+
+
+            label{
+              
+                color: white;
+            }
+
+
+          
+
+
+          
+
+    
+        
+    
+
+
+
+
+ 
+
+
+  
+
+
+
+
+
+
+
+
